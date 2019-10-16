@@ -2,8 +2,8 @@
 
 
 //import required documents
-require(constants.php);
-require(functions.php);
+require("constants.php");
+require("functions.php");
 
 //TODO enable session
 session_start();

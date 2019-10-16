@@ -1,5 +1,10 @@
 <?php
 
-//TODO insert build function for Index page
+// Build page
 
+    // configuration
+    require("../includes/config.php");
+
+    // render page
+    build("index.php", ["title" => "Home"]);
 ?>
